@@ -53,6 +53,7 @@ public class PetclinicInitializer extends AbstractDispatcherServletInitializer {
     private static final String SPRING_PROFILE = "jpa";
 
     private static final String DANDELION_SERVLET = "dandelionServlet";
+    private static final String DANDELION1_SERVLET = "dandelion1Servlet";
 
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
