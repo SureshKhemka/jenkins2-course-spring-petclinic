@@ -51,7 +51,7 @@ public interface OwnerRepository {
      */
     Owner findById(int id) throws DataAccessException;
 
-
+   
     /**
      * Save an <code>Owner</code> to the data store, either inserting or updating it.
      *
