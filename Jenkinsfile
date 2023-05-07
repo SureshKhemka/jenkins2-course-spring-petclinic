@@ -13,4 +13,8 @@ pipeline {
         }
         
     }
+    triggers {
+        // Poll the Github repository every 5 minutes
+        pollSCM '*/5 * * * *'
+    }
 }
