@@ -11,10 +11,6 @@ pipeline {
                 sh './mvnw clean package -DskipTests=true'
             }
         }
-        stage('Deploy') {
-            steps {
-                sh './mvnw deploy -DskipTests=true'
-            }
-        }
+        
     }
 }
