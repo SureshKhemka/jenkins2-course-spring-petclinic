@@ -3,7 +3,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'mysprinfpetclinic:latest'
         CONTAINER_NAME = 'mysprinfpetclinic'
-        WAR_FILE_NAME = 'petclinic.war'
+        WAR_FILE_NAME = './target/petclinic.war'
     }
     stages {
         stage('Checkout') {
